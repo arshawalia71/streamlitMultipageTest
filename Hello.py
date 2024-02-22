@@ -1,5 +1,19 @@
 import streamlit as st
 
+
+
+
+
+
+st.page_link("Hello.py", label="Home", icon="🏠")
+st.page_link("pages/1_📈_Plotting_Demo.py", label="Page 1", icon="1️⃣")
+st.page_link("pages/2_🌍_Mapping_Demo..py", label="Page 2", icon="2️⃣", disabled=True)
+st.page_link("http://www.google.com", label="Google", icon="🌎")
+
+
+
+
+
 st.set_page_config(
     page_title="Hello",
     page_icon="👋",
